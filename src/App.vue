@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <QrcodeReader/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import QrcodeReader from './components/QrcodeReader.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    QrcodeReader
   }
 }
 </script>
